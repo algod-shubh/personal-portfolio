@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { useMediaQuery } from 'react-responsive';
 
 const Hero = () => {
-  const MARQUEE_TEXT = 'React, Next.js, Node, MongoDb, Tailwind, MySql, Javascript, Redis,';
+  const MARQUEE_TEXT = 'React,  Next.js,  Node,  MongoDb,  Tailwind,  MySql,  Javascript,  Redis,  ';
   const isMobile = useMediaQuery({ maxWidth: 768 });
 
   return (

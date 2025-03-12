@@ -68,7 +68,8 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Shubham Arora</p>
               <p className="grid-subtext">
-              With 2 years of experience, I specialize in building scalable, high-performance web applications with a focus on frontend development.
+                With 2 years of experience, I specialize in building scalable, high-performance web applications with a
+                focus on frontend development.
               </p>
             </div>
           </div>
@@ -76,10 +77,8 @@ const About = () => {
 
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-
             <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
 
-         
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
@@ -107,9 +106,25 @@ const About = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Delhi, India and open to remote work worldwide.</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <p className="grid-headtext">I&apos;m based out of Delhi, India</p>
+              <ul className="grid-subtext list-disc pl-5">
+                <li>
+                  <strong>B.Tech in Computer Science</strong>
+                  <br />
+                  <strong>Netaji Subhash University of Technology</strong> (<strong>2019-2023</strong>)
+                  <br />
+                  CGPA: <strong>8.17</strong>
+                </li>
+                <li>
+                  <strong>High School</strong>
+                  <br />
+                  <strong>Delhi Public School, R.K. Puram</strong> (<strong>2019</strong>)
+                  <br />
+                  School CGPA: <strong>9.2</strong>
+                </li>
+              </ul>
+
+              {/* <Button name="Contact Me" isBeam containerClass="w-full mt-10" /> */}
             </div>
           </div>
         </div>
@@ -117,7 +132,7 @@ const About = () => {
         <div className="xl:col-span-2 xl:row-span-3">
           <div className="grid-container">
             <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
-           
+
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
@@ -152,8 +167,6 @@ const About = () => {
 };
 
 export default About;
-
-
 
 // <div class="max-w-md md:max-w-lg lg:max-w-xs mx-auto">
 // <div class="relative w-full mx-auto max-w-4xl opacity-90 dark:opacity-70 overflow-hidden before:content[''] before:absolute before:inset-0 before:w-full before:bg-[linear-gradient(to_right,hsl(var(#fff))_0%,transparent_10%,transparent_90%,hsl(var(#fff))_100%)] before:z-10 flex flex-nowrap px-5 lg:px-12 justify-center gap-4 lg:gap-8">
