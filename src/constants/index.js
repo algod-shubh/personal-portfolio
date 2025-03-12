@@ -248,41 +248,47 @@ export const myProjects = [
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
-    deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
+    deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.05,
     deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
     cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [9, -5.5, 0],
     reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
     ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
-    targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
+    targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -1, -10],
+    
+    aboutSectionPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -1, -10],
   };
 };
 
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'Paisabazaar.com',
+    pos: 'Full Stack Software Engineer',
+    duration: 'Jun,2023 - Present',
+     title : "\u2022 Revamped and optimized MyAccount UI, improving page load speed by 35% through lazy loading, tree shaking, and WebP conversions.\n\u2022 Redesigned the Home Loan journey UI, handling 100,000+ daily users, ensuring a smooth and efficient application process.\n" +
+"\u2022 Developed an enterprise-grade data access portal, replacing Hive workflows, automating queries, and improving analytics team efficiency.\n" +
+"\u2022 Built a scalable affiliate onboarding portal, enabling role-based document verification and lead tracking, supporting a ₹600 crore+ monthly revenue business.\n" +
+"\u2022 Created a role-based lead management system for 250+ agents, automating workflows and contributing to a ₹90 crore+ monthly revenue impact.\n" ,
+
+    icon: '/assets/pb_logo.png',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    name: 'Profound Tech',
+    pos: 'Software Developer Intern',
+    duration: 'May, 2022 - July, 2022',
+  title: "Developed secure backend modules with RSA encryption and Win32 APIs, ensuring robust authentication. Achieved 95%+ code coverage through Jest test cases in a TDD framework, reducing production defects.",
+    icon: '/assets/notion.svg',
     animation: 'clapping',
   },
-  {
-    id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
-    animation: 'salute',
-  },
+  // {
+  //   id: 3,
+  //   name: 'Notion',
+  //   pos: 'Junior Web Developer',
+  //   duration: 'May,2022 - July,2022',
+  //   title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+  //   icon: '/assets/notion.svg',
+  //   animation: 'salute',
+  // },
 ];
