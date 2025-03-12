@@ -1,77 +1,50 @@
-import { Leva } from 'leva';
-import { Suspense } from 'react';
-import { Canvas } from '@react-three/fiber';
-import { useMediaQuery } from 'react-responsive';
-import { PerspectiveCamera } from '@react-three/drei';
 import { motion } from 'framer-motion';
+import { useMediaQuery } from 'react-responsive';
 
-import Cube from '../components/Cube.jsx';
-import Rings from '../components/Rings.jsx';
-import ReactLogo from '../components/ReactLogo.jsx';
-import Button from '../components/Button.jsx';
-import Target from '../components/Target.jsx';
-import CanvasLoader from '../components/Loading.jsx';
-import HeroCamera from '../components/HeroCamera.jsx';
-import { calculateSizes } from '../constants/index.js';
-import { HackerRoom } from '../components/HackerRoom.jsx';
-
-// import profilePic from "asset"
 const Hero = () => {
-  const isSmall = useMediaQuery({ maxWidth: 440 });
+  const MARQUEE_TEXT = 'React, Next.js, Node, MongoDb, Tailwind, MySql, Javascript, Redis,';
   const isMobile = useMediaQuery({ maxWidth: 768 });
-  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
-
-  const sizes = calculateSizes(isSmall, isMobile, isTablet);
 
   return (
-    <section className="min-h-screen w-full flex flex-col relative" id="home">
-      <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
-        <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
-          Hi, I am a Software developer <span className="waving-hand">👋</span>
-        </p>
-        <p className="hero_tag text-gray_gradient">SHUBHAM ARORA</p>
+    <section className="relative w-full flex flex-col overflow-hidden" id="home">
+      {/* Hero Container */}
+      <div className="relative w-full min-h-screen flex items-center justify-end px-10">
+        {/* Background Image */}
+        <motion.div 
+          initial={{ opacity: 0, scale: 1.05 }} 
+          animate={{ opacity: 1, scale: 1 }} 
+          transition={{ duration: 2, ease: "easeOut" }} 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-[4px] opacity-50 -z-10"
+          style={{ backgroundImage: "url('/assets/hero_bg_1.jpg')" }}
+        ></motion.div>
+
+        {/* Hero Text */}
+        <motion.div 
+          initial={{ opacity: 0, x: 150 }} 
+          animate={{ opacity: 1, x: 0 }} 
+          transition={{ duration: 1.8, ease: "easeInOut" }} 
+          className="relative bg-black/50 backdrop-blur-lg p-10 rounded-lg text-white max-w-md z-10"
+        >
+          <h3 className="text-5xl font-extrabold">Shubham Arora</h3>
+          <p className="text-2xl mt-2">Crafting seamless digital experiences</p>
+        </motion.div>
       </div>
-      <div className="flex justify-center lg:p-8">
-        <motion.img
-          src="/images/shubham_header.jpg"
-          alt="Shubham Arora"
-          className="border border-stone-900 rounded-3xl"
-          draggable="false"
-          width={650}
-          height={650}
-          initial={{ x: 100, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1, delay: 1.5 }}
-        />
-      </div>
 
-      {/* <div className="w-full h-full absolute inset-0">
-        <Canvas className="w-full h-full">
-          <Suspense fallback={<CanvasLoader />}>
-            <Leva hidden />
-            <PerspectiveCamera makeDefault position={[0, 0, 30]} />
-
-            <HeroCamera isMobile={isMobile}>
-              <HackerRoom scale={sizes.deskScale} position={sizes.deskPosition} rotation={[0.1, -Math.PI, 0]} />
-            </HeroCamera>
-
-            <group>
-              <Cube position={sizes.targetPosition} />
-              <Cube position={sizes.reactLogoPosition} />
-              <Cube position={sizes.ringPosition} />
-              <Cube position={sizes.cubePosition} />
-            </group>
-
-            <ambientLight intensity={1} />
-            <directionalLight position={[10, 10, 10]} intensity={0.5} />
-          </Suspense>
-        </Canvas>
-      </div> */}
-
-      <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
-        <a href="#about" className="w-fit">
-          <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
-        </a>
+      {/* Marquee Animation */}
+      <div className="relative z-20 mt-auto w-full bg-lime-300 text-black lg:py-6">
+        <div className="flex overflow-hidden whitespace-nowrap">
+          {[...Array(2)].map((_, i) => (
+            <motion.h1
+              initial={{ x: '-100%' }}
+              animate={{ x: '0' }}
+              transition={{ repeat: Infinity, ease: 'linear', duration: 18 }}
+              key={i}
+              className="py-2 text-3xl font-bold leading-none tracking-tighter lg:text-5xl"
+            >
+              {MARQUEE_TEXT}
+            </motion.h1>
+          ))}
+        </div>
       </div>
     </section>
   );

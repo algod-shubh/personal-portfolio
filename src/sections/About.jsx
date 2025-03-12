@@ -76,610 +76,10 @@ const About = () => {
 
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <div class="max-w-md md:max-w-lg lg:max-w-xs mx-auto">
-              <div class="relative w-full mx-auto max-w-4xl opacity-90 dark:opacity-70 overflow-hidden before:content[''] before:absolute before:inset-0 before:w-full before:bg-[linear-gradient(to_right,hsl(var(#fff))_0%,transparent_10%,transparent_90%,hsl(var(#fff))_100%)] before:z-10 flex flex-nowrap px-5 lg:px-12 justify-center gap-4 lg:gap-8">
-                <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-left will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="mozilla"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
 
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="github"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
+            <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
 
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="langchain"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="resend"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                </div>
-                <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-left will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="mozilla"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="github"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="langchain"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="resend"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                </div>
-                <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-left will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="mozilla"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="github"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="langchain"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="resend"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                </div>
-                <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-left will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="mozilla"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="github"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="langchain"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="resend"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="max-w-md md:max-w-lg lg:max-w-xs mx-auto">
-              <div class="relative w-full mx-auto max-w-4xl opacity-90 dark:opacity-70 overflow-hidden before:content[''] before:absolute before:inset-0 before:w-full before:bg-[linear-gradient(to_right,hsl(var(#fff))_0%,transparent_10%,transparent_90%,hsl(var(#fff))_100%)] before:z-10 flex flex-nowrap px-5 lg:px-12 justify-center gap-4 lg:gap-8">
-                <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-right will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="mozilla"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="github"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="langchain"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="resend"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                </div>
-                <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-right will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="mozilla"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="github"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="langchain"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="resend"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                </div>
-                <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-right will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="mozilla"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="github"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="langchain"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="resend"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                </div>
-                <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-right will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="mozilla"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="github"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="langchain"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="resend"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="max-w-md md:max-w-lg lg:max-w-xs mx-auto">
-              <div class="relative w-full mx-auto max-w-4xl opacity-90 dark:opacity-70 overflow-hidden before:content[''] before:absolute before:inset-0 before:w-full before:bg-[linear-gradient(to_right,hsl(var(#fff))_0%,transparent_10%,transparent_90%,hsl(var(#fff))_100%)] before:z-10 flex flex-nowrap px-5 lg:px-12 justify-center gap-4 lg:gap-8">
-                <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-left will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="mozilla"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="github"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="langchain"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="resend"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                </div>
-                <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-left will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="mozilla"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="github"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="langchain"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="resend"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                </div>
-                <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-left will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="mozilla"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="github"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="langchain"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="resend"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                </div>
-                <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-left will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="mozilla"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="github"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="langchain"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="resend"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="max-w-md md:max-w-lg lg:max-w-xs mx-auto">
-              <div class="relative w-full mx-auto max-w-4xl opacity-90 dark:opacity-70 overflow-hidden before:content[''] before:absolute before:inset-0 before:w-full before:bg-[linear-gradient(to_right,hsl(var(#fff))_0%,transparent_10%,transparent_90%,hsl(var(#fff))_100%)] before:z-10 flex flex-nowrap px-5 lg:px-12 justify-center gap-4 lg:gap-8">
-                <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-right will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="mozilla"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="github"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="langchain"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="resend"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                </div>
-                <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-right will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="mozilla"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="github"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="langchain"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="resend"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                </div>
-                <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-right will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="mozilla"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="github"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="langchain"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="resend"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                </div>
-                <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-right will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="mozilla"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="github"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="langchain"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-
-                  <div class="h-12 lg:h-12 w-max !inline-block">
-                    <img
-                      src="/images/mozilla.svg"
-                      alt="resend"
-                      class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
-                      draggable="false"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
+         
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
@@ -752,3 +152,610 @@ const About = () => {
 };
 
 export default About;
+
+
+
+// <div class="max-w-md md:max-w-lg lg:max-w-xs mx-auto">
+// <div class="relative w-full mx-auto max-w-4xl opacity-90 dark:opacity-70 overflow-hidden before:content[''] before:absolute before:inset-0 before:w-full before:bg-[linear-gradient(to_right,hsl(var(#fff))_0%,transparent_10%,transparent_90%,hsl(var(#fff))_100%)] before:z-10 flex flex-nowrap px-5 lg:px-12 justify-center gap-4 lg:gap-8">
+//   <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-left will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="mozilla"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="github"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="langchain"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="resend"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//   </div>
+//   <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-left will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="mozilla"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="github"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="langchain"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="resend"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//   </div>
+//   <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-left will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="mozilla"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="github"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="langchain"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="resend"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//   </div>
+//   <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-left will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="mozilla"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="github"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="langchain"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="resend"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//   </div>
+// </div>
+// </div>
+// <div class="max-w-md md:max-w-lg lg:max-w-xs mx-auto">
+// <div class="relative w-full mx-auto max-w-4xl opacity-90 dark:opacity-70 overflow-hidden before:content[''] before:absolute before:inset-0 before:w-full before:bg-[linear-gradient(to_right,hsl(var(#fff))_0%,transparent_10%,transparent_90%,hsl(var(#fff))_100%)] before:z-10 flex flex-nowrap px-5 lg:px-12 justify-center gap-4 lg:gap-8">
+//   <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-right will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="mozilla"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="github"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="langchain"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="resend"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//   </div>
+//   <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-right will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="mozilla"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="github"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="langchain"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="resend"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//   </div>
+//   <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-right will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="mozilla"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="github"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="langchain"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="resend"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//   </div>
+//   <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-right will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="mozilla"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="github"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="langchain"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="resend"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//   </div>
+// </div>
+// </div>
+// <div class="max-w-md md:max-w-lg lg:max-w-xs mx-auto">
+// <div class="relative w-full mx-auto max-w-4xl opacity-90 dark:opacity-70 overflow-hidden before:content[''] before:absolute before:inset-0 before:w-full before:bg-[linear-gradient(to_right,hsl(var(#fff))_0%,transparent_10%,transparent_90%,hsl(var(#fff))_100%)] before:z-10 flex flex-nowrap px-5 lg:px-12 justify-center gap-4 lg:gap-8">
+//   <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-left will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="mozilla"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="github"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="langchain"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="resend"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//   </div>
+//   <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-left will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="mozilla"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="github"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="langchain"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="resend"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//   </div>
+//   <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-left will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="mozilla"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="github"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="langchain"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="resend"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//   </div>
+//   <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-left will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="mozilla"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="github"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="langchain"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="resend"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//   </div>
+// </div>
+// </div>
+// <div class="max-w-md md:max-w-lg lg:max-w-xs mx-auto">
+// <div class="relative w-full mx-auto max-w-4xl opacity-90 dark:opacity-70 overflow-hidden before:content[''] before:absolute before:inset-0 before:w-full before:bg-[linear-gradient(to_right,hsl(var(#fff))_0%,transparent_10%,transparent_90%,hsl(var(#fff))_100%)] before:z-10 flex flex-nowrap px-5 lg:px-12 justify-center gap-4 lg:gap-8">
+//   <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-right will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="mozilla"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="github"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="langchain"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="resend"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//   </div>
+//   <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-right will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="mozilla"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="github"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="langchain"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="resend"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//   </div>
+//   <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-right will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="mozilla"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="github"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="langchain"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="resend"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//   </div>
+//   <div class="gap-4 lg:gap-8 flex flex-nowrap w-fit animate-marquee-right will-change-transform motion-reduce:animate-none motion-reduce:will-change-none">
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="mozilla"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="github"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="langchain"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+
+//     <div class="h-12 lg:h-12 w-max !inline-block">
+//       <img
+//         src="/images/mozilla.svg"
+//         alt="resend"
+//         class="h-12 lg:h-12 !min-h-12 lg:!min-h-12 w-auto block"
+//         draggable="false"
+//       />
+//     </div>
+//   </div>
+// </div>
+// </div>
