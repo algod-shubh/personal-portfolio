@@ -95,10 +95,10 @@ export const myProjects = [
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Ryde App - Real-Time Uber Clone',
+    desc: 'Ryde App is a full-stack Uber clone designed for seamless ride-hailing experiences. It integrates real-time navigation, secure authentication, and instant payments, offering a smooth and reliable transportation solution.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+      'Built with React Native, Next.js, and Serverless PostgreSQL, Ryde App features authentication powered by Clerk, navigation via Google Maps, and payments handled through Stripe. The app ensures real-time communication with a scalable chat system using Socket.io, Kafka, and Redis.',
     href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
@@ -132,10 +132,10 @@ export const myProjects = [
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Data Nexus : Analytics tool',
+    desc: ' Data Nexus is a centralized portal for an entire firm that automates data access requests, enabling users to query production data and download structured responses seamlessly.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+      'With a focus on efficiency, Data Nexus integrantes complex forms and SMS notifications, by using Next.js, that streamlines data operations, serving over 150+ employees with real-time insights and access management.',
     href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
@@ -171,11 +171,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'Affiliates Portal',
+    desc: 'The Affiliates Portal is a comprehensive platform designed for onboarding and managing affiliate partners, allowing them to track business performance and upload new leads effortlessly.',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      'Developed with a scalable architecture, the portal features creative dashboards, enhanced calculators, role-based access control, and real-time analytics, supporting a business pipeline exceeding ₹600 crore in monthly revenue.',
+    href: 'https://affiliates.paisabazaar.com/',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {

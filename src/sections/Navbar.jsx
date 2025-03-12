@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import { navLinks } from '../constants/index.js';
+import { LuImport } from 'react-icons/lu';
 
 const NavItems = ({ onClick = () => {} }) => (
   <ul className="nav-ul">
@@ -37,12 +38,32 @@ const Navbar = () => {
 
           <nav className="sm:flex hidden">
             <NavItems />
+            <a
+              href="/assets/shubham_arora.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+              className="ml-[20px] flex items-center rounded-xl bg-lime-300 p-2
+ font-sans font-medium text-black hover:bg-lime-400">
+              <span>Resume.pdf</span>
+              <LuImport className="ml-2" />
+            </a>
           </nav>
         </div>
       </div>
 
       <div className={`nav-sidebar ${isOpen ? 'max-h-screen' : 'max-h-0'}`}>
         <nav className="p-5">
+          <a
+            href="/assets/shubham_arora.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+            className="ml-[20px] flex items-center rounded-xl Ibg-lime-300 p-2
+px-3 font-sans font-medium ☐ text-black hover:bg-lime-400">
+            <span>Resume.pdf</span>
+            <LuImport className="ml-2" />
+          </a>
           <NavItems onClick={closeMenu} />
         </nav>
       </div>
